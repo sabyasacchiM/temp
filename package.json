@@ -1,16 +1,27 @@
 {
-  "name": "sabby",
+  "name": "test-temp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "temperature from perishable good containers",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "nodejs server.js",
+    "start": "node server.js"
   },
-  "author": "Sabyasachi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8972059948/temp.git"
+  },
+  "keywords": [
+    "temp"
+  ],
+  "author": "sabyasachi",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8972059948/temp/issues"
+  },
+  "homepage": "https://github.com/8972059948/temp#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
     "fs": "0.0.1-security"
   }
 }
